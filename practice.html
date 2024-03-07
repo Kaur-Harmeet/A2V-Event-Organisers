@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practicestyle.css">
+    <style>
+       
+        .box{
+            background:url(images/bg3\ \(2\).jpg) no-repeat;
+            background-size: cover;
+            height: 650px;
+            width: 100vw;
+            
+        }
+       .box h1{
+            text-align: center;
+            color:darkgoldenrod;
+            padding-top: 16rem;
+            font-size: 4rem;
+        }
+        .container{
+            height: 500px;
+            width:100vwpx;
+            
+            background: linear-gradient(45deg, red, orange, blue, green);
+            background-size: 300% 300%;
+            animation: new 5s ease-in-out infinite;
+        }
+        @keyframes new{
+            0%{
+                background-position: 0 50%;
+            }
+           50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0 50%;
+            }
+        }
+        .box4{
+            height: 400px;
+            width: 400px;
+            font-size: 2rem;
+        }
+        .box5{
+    
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(238, 236, 235);
+    
+    margin-top: 4rem;
+   
+}
+.insidebox5{
+    width: 1100px;
+    height: 600px;
+    background-color: white;
+    margin-left: 20rem;
+   margin-top: 4rem;
+   border-radius: 1%;
+    
+}
+.insidebox5 p{
+    color: black;
+    font-size: 20px;
+    margin-left: 25rem;
+    margin-top: 4rem;
+}
+.insidecircle{
+    height: 450px;
+    width: 450px;
+    z-index: 4;
+    background-color: white;
+    border: 4px solid rgb(238, 236, 235);
+    margin-bottom: 2rem;
+    margin-left: -11rem;
+    margin-top: -26rem;
+    border-radius: 50%;
+    
+}
+.outsidecircle{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    border: 2px solid rgb(238, 236, 235);
+    margin-bottom: 2rem;
+    z-index: 3;
+    margin-top: -25rem;
+    margin-left: -6rem;
+    border-radius: 50%;
+    
+}
+.outsidecircle p{
+    color: black;
+   margin-left: -3rem;
+}
+.circlebottom{
+    height: 65px;
+    width: 65px;
+    background-color:  rgb(238, 236, 235);;
+    border-radius: 50%;
+    z-index: 5;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+.circletop{
+    height: 65px;
+    width: 65px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    z-index: 5;
+    margin-left: 10px;
+    margin-top: -360px;
+}
+.circleleft{
+    height: 65px;
+    width: 65px;
+    background-color:rgb(238, 236, 235);
+    border-radius: 50%;
+    z-index: 5;
+    margin-left: -8rem;
+    margin-top: 80px;
+}
+.circleright{
+    height: 65px;
+    width: 65px;
+    background-color:rgb(238, 236, 235);
+    border-radius: 50%;
+    z-index: 5;
+    margin-left: 11rem;
+    margin-top: -60px;
+}
+.random{
+    width: 100vw;
+    height: 200px;
+    background-color: green;
+    margin-top: 26rem;
+}
+.circlebottom:hover{
+    
+    background-color: goldenrod;
+
+    
+}
+.circleleft:hover{
+    
+    background-color: goldenrod;
+    
+}
+.circleright:hover{
+    
+    background-color: goldenrod;
+    
+}
+
+
+
+/* box5 styling ends*/
+ul{
+    list-style: none;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+}
+ul li ul.dropdown li{
+    display: block;
+    background-color: red;
+    margin: 2px 0px;
+
+}
+ul li ul.dropdown{
+    width: auto;
+    background-color: pink;
+   position: absolute;
+   z-index: 999;
+   display: none;
+}
+ul li a:hover{
+    background-color: yellow;
+
+  
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+    </style>
+
+</head>
+<body>
+    <div class="box">
+    <h1>A Complete Event Management Solution</h1>
+</div>
+<div class="container"></div>
+<div class="box4">
+    <span class="num" data-val="340">000</span>
+    <span class="text">Happy Customers</span>
+</div>
+<div class="box5">
+    <div class="insidebox5">
+         <p>Sakura Events was founded in 2010 by its promoter Salome Sathaye in Mumbai, India. Sachin Dand joined the company in 2012 as a partner and under the leadership of both Salome and Sachin, Sakura Events grew to be known as one of the most trustworthy event management companies in India. With a plethora of well-known brands and luxury events under their umbrella, Sakura Events is now proudly operational in Dubai, UAE. A decade of unparalleled experience and customer loyalty, Sakura Events plans to reach new horizons in the event management space.</p>
+        <div class="insidecircle"></div>
+   <div class="outsidecircle">
+   </div>
+   <div class="circlebottom">
+    </div>
+   <div class="circletop">
+     </div>
+
+   <div class="circleleft">
+    </div>
+   <div class="circleright">
+   </div>
+    </div>
+   </div>
+   
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">skills &#x25BE</a>
+    <ul class="dropdown">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+    </ul>
+    </li>
+   </ul>
+<!--<script>
+    let valueDisplays=document.querySelectorAll("num");
+    let interval=2000;
+    valueDisplays.forEach((valueDisplay)=>{
+    let startValue=0;
+    let endValue=parseInt(valueDisplay.getAttribute("data-val"));
+    let duration=Math.floor(interval/endValue);
+    let counter=setInterval(function(){
+        startValue+=1;
+    valueDisplay.textContent=startValue;
+    if(startValue==endValue){
+    clearInterval(counter);
+     }
+    },duration);
+    });
+</script>-->
+<script src="script.js"></script>
+</body>
+</html>
