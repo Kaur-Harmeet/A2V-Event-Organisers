@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+header{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    padding: 1rem 7%;
+}
+
+
+nav{
+    position: absolute;
+    top: 0; left: 0; right: 0;bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 70px;
+    width:100vw;
+    background-color: goldenrod;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul a{
+text-decoration: none;
+color: white;
+}
+nav ul a:hover{
+   font-size: 1.05rem;
+   color: black;
+    }
+    nav p{
+        font-size: 2.5rem;
+        margin-left: 4rem;
+    }
+    nav li ul.dropdown li{
+        display: block;
+        background-color:goldenrod;
+        margin: 4px 0px;
+        font-size: 1.25rem;
+    
+    }
+    nav li ul.dropdown{
+        width: auto;
+        background-color: white;
+       position: absolute;
+       z-index: 999;
+       display: none;
+       
+    }
+    nav li:hover ul.dropdown{
+        display: block;
+    }
+   
+   .a2v{
+    display: flex;
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    background: url(images/imgintext.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 800;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+   }
+   .icons i{
+    margin-left: 0.5rem;
+    padding-left: 0.75rem;
+    justify-content:space-around;
+    height: 2rem;
+    line-height: 2rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 30%;
+    background: white;
+    cursor: pointer;
+    
+}
+.icons i:hover{
+    transform: rotate(360deg);
+    background: gray;
+    
+}
+.icons #menu-bars{
+    display: none;
+}
+/*box1 styling starts*/
+.container{
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(45deg,white,goldenrod);
+    background-size: 300% 300%;
+    
+}
+.box1{
+   
+    height: 500px;
+    width: 1100px;
+    background: linear-gradient(55deg,goldenrod,white,white);
+    background-size: 300% 300%;
+    margin-top: 2rem;
+    z-index: 3;
+    border-radius: 5%;
+
+    
+}
+.box1img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 6rem;
+    margin-left: 45rem;
+    border-radius: 4%;
+
+}
+.box1 h1{
+    margin-top: -15rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+.box1 p{
+    margin-left: 2rem;
+    
+}
+
+/*box1 styling ends*/
+/*box2 styling starts*/
+.box2{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    
+}
+.box2img{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+.box2 h1{
+    margin-left: 40rem;
+}
+.box2 p{
+   margin-left: 28rem;
+}
+#pa3{
+   margin-left: 39rem;
+   padding-top: 1rem;
+}
+#heading{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 45rem;
+    color: #333;
+    margin-top: -25rem;
+    margin-bottom: 2rem;
+}
+#description{
+    margin-left: 45rem;
+    
+}
+/*box2 styling ends*/
+/*box3 styling starts*/
+.container2 img{
+    height: 400px;
+    width: 400px;
+    margin-top: -20rem;
+    margin-left: 5rem;
+     border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+}
+.box3 img{
+    height: 330px;
+    width: 330px;
+   margin-top: -14rem;
+    margin-left: -9rem;
+     border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.outercontainer{
+    height: 480px;
+    width: 480px;
+    background: linear-gradient(45deg, pink,skyblue);
+    margin-top: 13rem;
+    margin-left: 55rem;
+    border-radius: 50%;
+}
+.outercontainer h1{
+    margin-left: -46rem;
+    padding-top: 4rem;
+}
+.outercontainer p{
+    margin-left: -44rem;
+    padding-top: 2rem;
+}
+
+/*box3 styling ends*/
+  /*box4 styling starts*/
+.box4 h1{
+    margin-top: 8rem;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.box4 p{
+    margin-left: 30rem;
+
+}
+#box4para2{
+    margin-left: 40rem;
+}
+.container3{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 45rem;
+}
+.imgcontainer{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+/*img{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}*/
+#img1{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+#img2{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+#img3{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+#img4{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+#img5{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+#img6{
+    position: relative;
+    height: 370px;
+    width: 240px;
+    
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.button{
+    position: absolute;
+    height: 370px;
+    width: 240px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.button:hover{
+   background-color:rgba(0, 0, 0, 0.2);
+   
+}
+#slide1:target ~ .imgcontainer #img1,
+#slider1:target ~ .imgcontainer #button1{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+   
+}
+#slide2:target ~ .imgcontainer #img2,
+#slider2:target ~ .imgcontainer #button2{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+  
+}
+#slide3:target ~ .imgcontainer #img3,
+#slider3:target ~ .imgcontainer #button3{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    
+}
+#slide4:target ~ .imgcontainer #img4,
+#slider4:target ~ .imgcontainer #button4{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    
+}
+#slide5:target ~ .imgcontainer #img5,
+#slider5:target ~ .imgcontainer #button5{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+    
+}
+#slide6:target ~ .imgcontainer #img6,
+#slider6:target ~ .imgcontainer #button6{
+    width: 390px;
+    height: 600px;
+    background-color: transparent;
+  
+}
+#slider1:target ~ .imgcontainer{
+    left:60%;
+}
+#slider2:target ~ .imgcontainer{
+    left:40%;
+}
+#slider3:target ~ .imgcontainer{
+    left:20%;
+}
+#slider4:target ~ .imgcontainer{
+    left:0%;
+}
+#slider5:target ~ .imgcontainer{
+    left:-20%;
+}
+#slider6:target ~ .imgcontainer{
+    left:-40%;
+}
+
+ /*box4 styling ends*/
+  
+ .thirdsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    width:100vw;
+   margin-top: 2rem;
+   background: linear-gradient(60deg,white,goldenrod,goldenrod,goldenrod);
+   background-size: 300% 300%;
+   opacity: 100;
+ }
+ 
+ #pa1{
+    margin-top: 2rem;
+    color: #333;
+ }
+ #pa2{
+    margin-left: 3rem;
+    color: #333;
+ }
+ #para3{
+    margin-left: 5rem;
+    color: #333;
+ }
+ #pa{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 500;
+margin-top: -10.25rem;
+margin-left: 5rem;
+ }
+ .iconstyle a{
+text-decoration: none;
+color: #333;
+font-size: 1.25rem;
+ }
+
+.iconstyle i{
+border-radius: 30%;
+background:black;
+cursor: pointer;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+padding-left: 0.75rem;
+height: 2rem;
+line-height: 2rem;
+width: 3rem;
+text-align: center;
+font-size: 1.25rem;
+margin-top: 8px;
+color:white;
+
+
+} 
+.iconstyle i:hover{
+transform: rotate(360deg);
+background: #333;
+
+}
+.social_media {
+display: flex;
+margin-top: -3rem;
+padding-top: 0;
+width: 350px;
+border-radius: 1rem;/*16 px*/
+margin-right: 0.5rem;
+flex-direction: column;
+justify-content: center;
+padding: 0.5 0.75;
+
+}
+
+.social_media p{
+color: #333;
+    font-size: 2rem;
+    font-weight: 500;
+margin-top: 1rem;
+margin-left: 5rem;
+
+
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+}
+.contactForm h2{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 500;
+
+margin-left: 5rem;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+  border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus~ span,
+.contactForm .inputBox input:valid~ span,
+.contactForm .inputBox textarea:focus~ span,
+.contactForm .inputBox textarea:focus~ span{
+    color: blue;
+    font-size: 12px;
+    transform: translatey(-20px);
+}
+.contactForm .inputBox input[type="Submit"]
+{
+    width: 100px;
+    columns: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+   
+
+
+    
